@@ -1,0 +1,33 @@
+{
+  "name": "naightraid-ui",
+  "version": "0.0.1",
+  "description": "A anime react component library, hoping to transfer the love of animation to the learning of component library, full of passion and motivation, and a less serious component library.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/toaly"
+  },
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c"
+  },
+  "author": "toaly",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.47",
+    "rollup": "^4.9.5",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
